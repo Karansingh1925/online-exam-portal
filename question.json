@@ -1,0 +1,176 @@
+{
+    "exams": {
+        "jee-mains": {
+            "questions": [
+                {"id": 1, "subject": "Physics", "type": "mcq", "text": "What is the SI unit of force?", "options": ["Newton", "Joule", "Watt", "Pascal"], "correctAnswer": 0, "difficulty": "easy", "timeSuggested": 60, "tags": ["mechanics", "units"], "explanation": "Force is defined as mass times acceleration. The SI unit of force is Newton (N), named after Sir Isaac Newton. It is derived as 1 N = 1 kg·m/s²."},
+                {"id": 2, "subject": "Physics", "type": "mcq", "text": "Which of the following is a scalar quantity?", "options": ["Velocity", "Acceleration", "Force", "Temperature"], "correctAnswer": 3, "difficulty": "easy", "timeSuggested": 60, "tags": ["mechanics", "scalar-vector"], "explanation": "A scalar quantity has only magnitude and no direction. Temperature is a scalar quantity as it only indicates magnitude (e.g., 25°C), while velocity, acceleration, and force are vector quantities as they have both magnitude and direction."},
+                {"id": 3, "subject": "Physics", "type": "mcq", "text": "Which law states that an object at rest stays at rest unless acted upon by an external force?", "options": ["Newton’s First Law", "Newton’s Second Law", "Newton’s Third Law", "Law of Gravitation"], "correctAnswer": 0, "difficulty": "easy", "timeSuggested": 60, "tags": ["mechanics", "newton-laws"], "explanation": "Newton’s First Law, also known as the Law of Inertia, states that an object at rest stays at rest and an object in motion stays in motion with the same speed and direction unless acted upon by an external force."},
+                {"id": 4, "subject": "Physics", "type": "mcq", "text": "What is the dimensional formula of work?", "options": ["ML²T⁻²", "MLT⁻²", "ML²T⁻³", "ML⁻¹T²"], "correctAnswer": 0, "difficulty": "medium", "timeSuggested": 90, "tags": ["mechanics", "dimensions"], "explanation": "Work is defined as force times distance. Force has the dimensional formula [MLT⁻²], and distance has the dimensional formula [L]. Therefore, the dimensional formula of work is [MLT⁻²] × [L] = [ML²T⁻²]."},
+                {"id": 5, "subject": "Physics", "type": "mcq", "text": "A convex lens forms a real, inverted image when the object is placed:", "options": ["At the focus", "Between the lens and the focus", "At twice the focal length", "At infinity"], "correctAnswer": 2, "difficulty": "medium", "timeSuggested": 90, "tags": ["optics", "lenses"], "explanation": "A convex lens forms a real and inverted image when the object is placed beyond the focal point. When the object is at twice the focal length (2F), the image is also real, inverted, and formed at 2F on the other side of the lens."},
+                {"id": 6, "subject": "Physics", "type": "mcq", "text": "Which of the following waves does not require a medium to propagate?", "options": ["Sound waves", "Water waves", "Seismic waves", "Electromagnetic waves"], "correctAnswer": 3, "difficulty": "easy", "timeSuggested": 60, "tags": ["waves", "electromagnetic"], "explanation": "Electromagnetic waves, such as light and radio waves, can travel through a vacuum and do not require a medium for propagation. Sound waves, water waves, and seismic waves are mechanical waves that require a medium (air, water, or earth) to propagate."},
+                {"id": 7, "subject": "Physics", "type": "mcq", "text": "The escape velocity from Earth is approximately:", "options": ["7 km/s", "11.2 km/s", "15 km/s", "3 km/s"], "correctAnswer": 1, "difficulty": "hard", "timeSuggested": 120, "tags": ["gravitation", "velocity"], "explanation": "Escape velocity is the minimum speed needed for an object to escape Earth's gravitational pull without further propulsion. For Earth, this value is approximately 11.2 km/s, derived from the formula v = √(2GM/R), where G is the gravitational constant, M is Earth's mass, and R is Earth's radius."},
+                {"id": 8, "subject": "Physics", "type": "mcq", "text": "Which of the following statements about friction is correct?", "options": ["Friction is always undesirable", "Static friction is always less than kinetic friction", "Friction depends on the nature of surfaces in contact", "Friction acts in the direction of motion"], "correctAnswer": 2, "difficulty": "medium", "timeSuggested": 90, "tags": ["mechanics", "friction"], "explanation": "Friction depends on the nature of the surfaces in contact (e.g., rough or smooth) and the normal force between them. The other statements are incorrect: friction can be desirable (e.g., for walking), static friction is typically greater than kinetic friction, and friction acts opposite to the direction of motion."},
+                {"id": 9, "subject": "Physics", "type": "mcq", "text": "Which thermodynamic process occurs at constant pressure?", "options": ["Isothermal", "Adiabatic", "Isobaric", "Isochoric"], "correctAnswer": 2, "difficulty": "medium", "timeSuggested": 90, "tags": ["thermodynamics", "processes"], "explanation": "An isobaric process is one that occurs at constant pressure. Isothermal processes occur at constant temperature, adiabatic processes involve no heat transfer, and isochoric processes occur at constant volume."},
+                {"id": 10, "subject": "Physics", "type": "mcq", "text": "The moment of inertia of a solid sphere rotating about its diameter is given by:", "options": ["(2/5)MR²", "(1/2)MR²", "(2/3)MR²", "(3/5)MR²"], "correctAnswer": 0, "difficulty": "hard", "timeSuggested": 120, "tags": ["rotational-motion", "moment-of-inertia"], "explanation": "The moment of inertia of a solid sphere about its diameter is given by I = (2/5)MR², where M is the mass and R is the radius. This is derived from the standard formula for a solid sphere using the perpendicular axis theorem and integration."},
+                {"id": 11, "subject": "Physics", "type": "mcq", "text": "In an AC circuit, the power factor is given by:", "options": ["cos θ", "sin θ", "tan θ", "1/cos θ"], "correctAnswer": 0, "difficulty": "medium", "timeSuggested": 90, "tags": ["electricity", "ac-circuits"], "explanation": "The power factor in an AC circuit is defined as cos θ, where θ is the phase angle between the voltage and current. It represents the fraction of electrical power that is converted into useful work."},
+                {"id": 12, "subject": "Physics", "type": "mcq", "text": "Which of the following particles has the least mass?", "options": ["Neutron", "Proton", "Electron", "Alpha particle"], "correctAnswer": 2, "difficulty": "easy", "timeSuggested": 60, "tags": ["modern-physics", "particles"], "explanation": "The electron has the least mass among the given options. Its mass is approximately 9.11 × 10⁻³¹ kg, while the proton and neutron have masses around 1.67 × 10⁻²⁷ kg, and an alpha particle (helium nucleus) has a mass roughly four times that of a proton."},
+                {"id": 13, "subject": "Physics", "type": "mcq", "text": "Which type of mirror is used in car rearview mirrors?", "options": ["Concave", "Convex", "Plane", "Cylindrical"], "correctAnswer": 1, "difficulty": "easy", "timeSuggested": 60, "tags": ["optics", "mirrors"], "explanation": "Convex mirrors are used in car rearview mirrors because they provide a wider field of view and form virtual, upright, and diminished images, allowing drivers to see more area behind them."},
+                {"id": 14, "subject": "Physics", "type": "mcq", "text": "Which physical quantity is conserved in an elastic collision?", "options": ["Momentum", "Kinetic energy", "Both A and B", "Only potential energy"], "correctAnswer": 2, "difficulty": "medium", "timeSuggested": 90, "tags": ["mechanics", "collisions"], "explanation": "In an elastic collision, both momentum and kinetic energy are conserved. Momentum is always conserved in collisions (as per the law of conservation of momentum), and in elastic collisions, kinetic energy is also conserved because there is no loss of energy to heat or deformation."},
+                {"id": 15, "subject": "Physics", "type": "mcq", "text": "The unit of resistivity in SI is:", "options": ["Ohm-meter", "Ohm", "Siemens", "Volt/meter"], "correctAnswer": 0, "difficulty": "medium", "timeSuggested": 90, "tags": ["electricity", "resistance"], "explanation": "Resistivity (ρ) is defined as the resistance of a material per unit length and cross-sectional area. Its SI unit is ohm-meter (Ω·m), derived from the formula ρ = R(A/L), where R is resistance (ohm), A is area (m²), and L is length (m)."},
+
+                {"id": 16, "subject": "Chemistry", "type": "truefalse", "text": "Water is a compound composed of hydrogen and oxygen.", "options": ["True", "False"], "correctAnswer": 0, "difficulty": "easy", "timeSuggested": 30, "tags": ["chemical compounds"], "explanation": "Water (H₂O) is indeed a compound composed of two hydrogen atoms bonded to one oxygen atom through covalent bonds. It is not an element or a mixture, making the statement true."},
+                {"id": 17, "subject": "Chemistry", "type": "mcq", "text": "Which of the following is an example of a noble gas?", "options": ["Oxygen", "Nitrogen", "Helium", "Chlorine"], "correctAnswer": 2, "difficulty": "easy", "timeSuggested": 60, "tags": ["periodic table", "gases"], "explanation": "Noble gases are elements in Group 18 of the periodic table, known for their low reactivity due to a full valence electron shell. Helium is a noble gas, while oxygen, nitrogen, and chlorine are not."},
+                {"id": 18, "subject": "Chemistry", "type": "mcq", "text": "Which law states that the total pressure of a mixture of gases is equal to the sum of the partial pressures of individual gases?", "options": ["Boyle’s Law", "Charles’s Law", "Dalton’s Law", "Avogadro’s Law"], "correctAnswer": 2, "difficulty": "medium", "timeSuggested": 90, "tags": ["gas laws", "pressure"], "explanation": "Dalton’s Law of Partial Pressures states that in a mixture of non-reacting gases, the total pressure is the sum of the partial pressures of each gas. Boyle’s Law relates pressure and volume, Charles’s Law relates volume and temperature, and Avogadro’s Law relates volume and the number of moles."},
+                {"id": 19, "subject": "Chemistry", "type": "mcq", "text": "What is the oxidation state of sulfur in H₂SO₄?", "options": ["+2", "+4", "+6", "-2"], "correctAnswer": 2, "difficulty": "medium", "timeSuggested": 90, "tags": ["redox reactions", "oxidation state"], "explanation": "To find the oxidation state of sulfur in H₂SO₄, we set up the equation: 2(+1) + x + 4(-2) = 0 (since the molecule is neutral). Solving for x: 2 + x - 8 = 0, x = +6. Thus, the oxidation state of sulfur is +6."},
+                {"id": 20, "subject": "Chemistry", "type": "mcq", "text": "Which of the following is an example of a strong acid?", "options": ["Acetic acid", "Hydrochloric acid", "Carbonic acid", "Phosphoric acid"], "correctAnswer": 1, "difficulty": "easy", "timeSuggested": 60, "tags": ["acids and bases", "pH scale"], "explanation": "Hydrochloric acid (HCl) is a strong acid because it completely dissociates in water into H⁺ and Cl⁻ ions. Acetic acid, carbonic acid, and phosphoric acid are weak acids as they only partially dissociate in water."},
+                {"id": 21, "subject": "Chemistry", "type": "mcq", "text": "The Aufbau principle states that:", "options": ["Electrons fill higher energy orbitals first", "Electrons fill lower energy orbitals first", "Electrons pair up in an orbital before filling another", "Each orbital can hold only one electron"], "correctAnswer": 1, "difficulty": "medium", "timeSuggested": 90, "tags": ["atomic structure", "electron configuration"], "explanation": "The Aufbau principle states that electrons occupy the lowest energy orbitals available before filling higher energy orbitals. For example, the 1s orbital fills before 2s, and 2s before 2p."},
+                {"id": 22, "subject": "Chemistry", "type": "mcq", "text": "What type of bond exists in NaCl?", "options": ["Covalent bond", "Ionic bond", "Metallic bond", "Hydrogen bond"], "correctAnswer": 1, "difficulty": "easy", "timeSuggested": 60, "tags": ["chemical bonding", "ionic compounds"], "explanation": "NaCl (sodium chloride) consists of an ionic bond, formed by the transfer of an electron from sodium (Na) to chlorine (Cl), resulting in Na⁺ and Cl⁻ ions that are held together by electrostatic attraction."},
+                {"id": 23, "subject": "Chemistry", "type": "mcq", "text": "Which of the following elements has the highest electronegativity?", "options": ["Oxygen", "Fluorine", "Chlorine", "Nitrogen"], "correctAnswer": 1, "difficulty": "medium", "timeSuggested": 90, "tags": ["periodic table", "electronegativity"], "explanation": "Electronegativity measures an element’s ability to attract electrons in a bond. Fluorine has the highest electronegativity in the periodic table (value of 4.0 on the Pauling scale), followed by oxygen (3.5), chlorine (3.0), and nitrogen (3.0)."},
+                {"id": 24, "subject": "Chemistry", "type": "mcq", "text": "What is the hybridization of carbon in methane (CH₄)?", "options": ["sp", "sp²", "sp³", "sp³d"], "correctAnswer": 2, "difficulty": "medium", "timeSuggested": 90, "tags": ["chemical bonding", "hybridization"], "explanation": "In methane (CH₄), carbon forms four single bonds with hydrogen atoms, arranged tetrahedrally. This requires four equivalent orbitals, achieved through sp³ hybridization, where one s and three p orbitals mix to form four sp³ hybrid orbitals."},
+                {"id": 25, "subject": "Chemistry", "type": "mcq", "text": "Which of the following is an example of an endothermic reaction?", "options": ["Burning of wood", "Condensation of water vapor", "Dissolution of ammonium chloride in water", "Respiration"], "correctAnswer": 2, "difficulty": "medium", "timeSuggested": 90, "tags": ["thermodynamics", "reaction types"], "explanation": "An endothermic reaction absorbs heat from the surroundings. Dissolving ammonium chloride in water is endothermic as it absorbs heat, causing the solution to cool. Burning of wood, condensation, and respiration are exothermic as they release heat."},
+                {"id": 26, "subject": "Chemistry", "type": "mcq", "text": "Which of the following compounds does NOT exhibit hydrogen bonding?", "options": ["H₂O", "NH₃", "CH₄", "HF"], "correctAnswer": 2, "difficulty": "medium", "timeSuggested": 90, "tags": ["intermolecular forces", "hydrogen bonding"], "explanation": "Hydrogen bonding occurs when a hydrogen atom is bonded to a highly electronegative atom (like O, N, or F) and interacts with another electronegative atom. CH₄ (methane) does not exhibit hydrogen bonding because carbon is not sufficiently electronegative, unlike H₂O, NH₃, and HF."},
+                {"id": 27, "subject": "Chemistry", "type": "mcq", "text": "What is the main product when ethanol is oxidized?", "options": ["Methanol", "Acetic acid", "Formaldehyde", "Acetone"], "correctAnswer": 1, "difficulty": "hard", "timeSuggested": 120, "tags": ["organic chemistry", "oxidation reactions"], "explanation": "When ethanol (C₂H₅OH) is oxidized, it first forms acetaldehyde (CH₃CHO) with mild oxidation (e.g., using PCC), and with strong oxidation (e.g., using KMnO₄ or K₂Cr₂O₇), it forms acetic acid (CH₃COOH). Methanol, formaldehyde, and acetone are not the main products."},
+                {"id": 28, "subject": "Chemistry", "type": "mcq", "text": "Which of the following polymers is an example of a condensation polymer?", "options": ["Polyethylene", "Polystyrene", "Nylon", "Teflon"], "correctAnswer": 2, "difficulty": "medium", "timeSuggested": 90, "tags": ["polymers", "organic chemistry"], "explanation": "Condensation polymers form with the loss of a small molecule (like water) during polymerization. Nylon is a condensation polymer formed from diamines and dicarboxylic acids, releasing water. Polyethylene, polystyrene, and Teflon are addition polymers, formed without losing a small molecule."},
+                {"id": 29, "subject": "Chemistry", "type": "mcq", "text": "Which of the following is an example of a transition metal?", "options": ["Calcium", "Magnesium", "Copper", "Sodium"], "correctAnswer": 2, "difficulty": "medium", "timeSuggested": 90, "tags": ["periodic table", "transition metals"], "explanation": "Transition metals are elements in the d-block of the periodic table that can form multiple oxidation states and often form colored compounds. Copper (Cu) is a transition metal, while calcium, magnesium, and sodium are not (they are s-block elements)."},
+                {"id": 31, "subject": "Mathematics", "type": "mcq", "text": "What is the derivative of sin(x)?", "options": ["cos(x)", "-sin(x)", "tan(x)", "sec(x)"], "correctAnswer": 0, "difficulty": "medium", "timeSuggested": 90, "tags": ["calculus", "trigonometry"], "explanation": "The derivative of sin(x) with respect to x is cos(x). This is a standard result in calculus, derived from the limit definition of the derivative or using the chain rule with trigonometric identities."},
+                {"id": 32, "subject": "Mathematics", "type": "mcq", "text": "What is the sum of the first n natural numbers?", "options": ["n(n+1)/2", "n²", "(n-1)n/2", "n(n+2)/2"], "correctAnswer": 0, "difficulty": "easy", "timeSuggested": 60, "tags": ["algebra", "series"], "explanation": "The sum of the first n natural numbers (1 + 2 + ... + n) is given by the formula n(n+1)/2. This can be derived using the arithmetic series formula or by pairing numbers (e.g., 1+n, 2+(n-1), etc.)."},
+                {"id": 33, "subject": "Mathematics", "type": "mcq", "text": "The roots of the quadratic equation ax² + bx + c = 0 are given by:", "options": ["(-b±√(b²-4ac))/2a", "(b±√(b²-4ac))/2a", "(-b±√(b²+4ac))/2a", "(b±√(b²+4ac))/2a"], "correctAnswer": 0, "difficulty": "medium", "timeSuggested": 90, "tags": ["algebra", "quadratic equations"], "explanation": "The roots of the quadratic equation ax² + bx + c = 0 are given by the quadratic formula: x = [-b ± √(b²-4ac)]/(2a). This formula is derived by completing the square."},
+                {"id": 34, "subject": "Mathematics", "type": "mcq", "text": "What is the integral of e^x?", "options": ["e^x + C", "ln(x) + C", "x e^x + C", "1/e^x + C"], "correctAnswer": 0, "difficulty": "medium", "timeSuggested": 90, "tags": ["calculus", "integration"], "explanation": "The integral of e^x with respect to x is e^x + C, where C is the constant of integration. This is because the derivative of e^x is e^x, making e^x its own antiderivative."},
+                {"id": 35, "subject": "Mathematics", "type": "mcq", "text": "What is the value of cos(0°)?", "options": ["0", "1", "-1", "Undefined"], "correctAnswer": 1, "difficulty": "easy", "timeSuggested": 60, "tags": ["trigonometry", "basic angles"], "explanation": "The value of cos(0°) is 1. This can be understood from the unit circle, where at 0°, the x-coordinate (which represents cos θ) is 1."},
+                {"id": 36, "subject": "Mathematics", "type": "mcq", "text": "What is the equation of a circle with center (h, k) and radius r?", "options": ["(x-h)² + (y-k)² = r²", "(x+h)² + (y+k)² = r²", "(x-h)² - (y-k)² = r²", "(x+h)² - (y+k)² = r²"], "correctAnswer": 0, "difficulty": "medium", "timeSuggested": 90, "tags": ["coordinate geometry", "circles"], "explanation": "The standard equation of a circle with center (h, k) and radius r is (x-h)² + (y-k)² = r². This equation represents all points (x, y) that are at a distance r from the center (h, k)."},
+                {"id": 37, "subject": "Mathematics", "type": "mcq", "text": "If the determinant of a 3x3 matrix is zero, then the system of equations it represents is:", "options": ["Consistent and has a unique solution", "Inconsistent", "Consistent and has infinitely many solutions", "Cannot be determined"], "correctAnswer": 2, "difficulty": "hard", "timeSuggested": 120, "tags": ["matrices", "determinants"], "explanation": "If the determinant of a 3x3 matrix is zero, the matrix is singular (non-invertible), meaning the system of equations it represents either has infinitely many solutions (if consistent) or no solution (if inconsistent). Typically, it implies infinitely many solutions in standard contexts."},
+                {"id": 38, "subject": "Mathematics", "type": "mcq", "text": "What is the value of logₐ(a^x)?", "options": ["x", "a^x", "1/x", "logₐ(x)"], "correctAnswer": 0, "difficulty": "medium", "timeSuggested": 90, "tags": ["logarithms", "properties"], "explanation": "Using the logarithm property logₐ(a^x) = x·logₐ(a), and since logₐ(a) = 1 (because a¹ = a), we get logₐ(a^x) = x·1 = x."},
+                {"id": 39, "subject": "Mathematics", "type": "mcq", "text": "The probability of getting a sum of 7 when rolling two fair six-sided dice is:", "options": ["1/6", "1/12", "1/36", "1/9"], "correctAnswer": 0, "difficulty": "medium", "timeSuggested": 90, "tags": ["probability", "combinatorics"], "explanation": "When rolling two dice, there are 36 possible outcomes (6×6). The combinations that sum to 7 are (1,6), (2,5), (3,4), (4,3), (5,2), (6,1), which are 6 outcomes. Thus, the probability is 6/36 = 1/6."},
+                {"id": 40, "subject": "Mathematics", "type": "mcq", "text": "Which function is always increasing for all real x?", "options": ["x²", "sin(x)", "e^x", "cos(x)"], "correctAnswer": 2, "difficulty": "medium", "timeSuggested": 90, "tags": ["functions", "calculus"], "explanation": "A function is always increasing if its derivative is always positive. The derivative of e^x is e^x, which is always positive for all x, so e^x is always increasing. In contrast, x² decreases for x < 0, and sin(x) and cos(x) oscillate."},
+                {"id": 41, "subject": "Mathematics", "type": "mcq", "text": "What is the area under the standard normal curve from -∞ to ∞?", "options": ["0", "1", "∞", "1/2"], "correctAnswer": 1, "difficulty": "hard", "timeSuggested": 120, "tags": ["statistics", "normal distribution"], "explanation": "The standard normal curve (mean 0, standard deviation 1) is a probability density function, and the total area under it from -∞ to ∞ is 1, representing the total probability."},
+                {"id": 42, "subject": "Mathematics", "type": "mcq", "text": "If A is a square matrix, then A⁻¹ exists if and only if:", "options": ["A is symmetric", "det(A) ≠ 0", "A is singular", "A is diagonal"], "correctAnswer": 1, "difficulty": "medium", "timeSuggested": 90, "tags": ["matrices", "inverse"], "explanation": "A square matrix A has an inverse (A⁻¹) if and only if its determinant is non-zero (det(A) ≠ 0). If det(A) = 0, the matrix is singular and has no inverse."},
+                {"id": 43, "subject": "Mathematics", "type": "mcq", "text": "Which of the following is a valid binomial expansion for (x+y)³?", "options": ["x³ + 3x²y + 3xy² + y³", "x³ + 2x²y + 2xy² + y³", "x³ + 3xy + y³", "x³ + 4x²y + 4xy² + y³"], "correctAnswer": 0, "difficulty": "medium", "timeSuggested": 90, "tags": ["binomial theorem", "expansion"], "explanation": "Using the binomial theorem, (x+y)³ = x³ + 3x²y + 3xy² + y³. The coefficients are given by the binomial coefficients: 1, 3, 3, 1."},
+                {"id": 44, "subject": "Mathematics", "type": "mcq", "text": "The value of ∫ 1/(1+x²) dx is:", "options": ["tan⁻¹(x) + C", "ln(x) + C", "e^x + C", "sin⁻¹(x) + C"], "correctAnswer": 0, "difficulty": "medium", "timeSuggested": 90, "tags": ["integration", "trigonometry"], "explanation": "The integral ∫ 1/(1+x²) dx is a standard form and equals tan⁻¹(x) + C. This can be derived using the substitution x = tan(θ) or by recognizing it as the derivative of tan⁻¹(x)."},
+                {"id": 45, "subject": "Mathematics", "type": "mcq", "text": "What is the sum of the interior angles of a hexagon?", "options": ["360°", "540°", "720°", "900°"], "correctAnswer": 2, "difficulty": "easy", "timeSuggested": 60, "tags": ["geometry", "polygons"], "explanation": "The sum of the interior angles of a polygon with n sides is (n-2)×180°. For a hexagon (n=6), the sum is (6-2)×180° = 4×180° = 720°."}
+            ]
+        },
+        "neet": {
+            "questions": [
+                {"id": 1, "subject": "Biology", "type": "mcq", "text": "Which organelle is known as the powerhouse of the cell?", "options": ["Nucleus", "Mitochondria", "Ribosome", "Golgi Apparatus"], "correctAnswer": 1, "difficulty": "easy", "timeSuggested": 60, "tags": ["cell biology"], "explanation": "The mitochondria is known as the powerhouse of the cell because it produces ATP (adenosine triphosphate), the cell's main energy currency, through cellular respiration."},
+                {
+                    "id": 2,
+                    "subject": "Biology",
+                    "type": "mcq",
+                    "text": "Which biomolecule is the primary source of energy for living organisms?",
+                    "options": ["Proteins", "Carbohydrates", "Lipids", "Nucleic Acids"],
+                    "correctAnswer": 1,
+                    "difficulty": "easy",
+                    "timeSuggested": 60,
+                    "tags": ["biomolecules"],
+                    "explanation": "Carbohydrates serve as the primary source of energy, as they are quickly broken down into glucose for cellular respiration."
+                },
+                {
+                    "id": 3,
+                    "subject": "Biology",
+                    "type": "mcq",
+                    "text": "Which of the following is a structural protein found in connective tissues?",
+                    "options": ["Keratin", "Actin", "Collagen", "Myosin"],
+                    "correctAnswer": 2,
+                    "difficulty": "easy",
+                    "timeSuggested": 60,
+                    "tags": ["human physiology"],
+                    "explanation": "Collagen is a major structural protein found in connective tissues like tendons, ligaments, and skin."
+                },
+                {
+                    "id": 4,
+                    "subject": "Biology",
+                    "type": "mcq",
+                    "text": "Which plant hormone is responsible for cell elongation and growth?",
+                    "options": ["Cytokinin", "Auxin", "Gibberellin", "Abscisic Acid"],
+                    "correctAnswer": 1,
+                    "difficulty": "medium",
+                    "timeSuggested": 60,
+                    "tags": ["plant physiology"],
+                    "explanation": "Auxins promote cell elongation and are involved in phototropism and root development."
+                },
+                {
+                    "id": 5,
+                    "subject": "Biology",
+                    "type": "mcq",
+                    "text": "What is the primary function of the large intestine?",
+                    "options": ["Absorption of nutrients", "Digestion of proteins", "Water absorption and waste formation", "Production of digestive enzymes"],
+                    "correctAnswer": 2,
+                    "difficulty": "easy",
+                    "timeSuggested": 60,
+                    "tags": ["human physiology"],
+                    "explanation": "The large intestine absorbs water and electrolytes and forms solid waste (feces) for excretion."
+                },
+                {
+                    "id": 6,
+                    "subject": "Biology",
+                    "type": "mcq",
+                    "text": "Which of the following is a characteristic feature of prokaryotic cells?",
+                    "options": ["Membrane-bound organelles", "Nuclear envelope", "Circular DNA", "Multicellularity"],
+                    "correctAnswer": 2,
+                    "difficulty": "medium",
+                    "timeSuggested": 60,
+                    "tags": ["cell biology"],
+                    "explanation": "Prokaryotic cells lack a nuclear membrane and have circular DNA, unlike eukaryotic cells which have linear DNA."
+                },
+                {
+                    "id": 7,
+                    "subject": "Biology",
+                    "type": "mcq",
+                    "text": "Which part of the brain is responsible for balance and coordination?",
+                    "options": ["Cerebrum", "Medulla Oblongata", "Cerebellum", "Hypothalamus"],
+                    "correctAnswer": 2,
+                    "difficulty": "medium",
+                    "timeSuggested": 60,
+                    "tags": ["human physiology"],
+                    "explanation": "The cerebellum is responsible for coordinating voluntary movements and maintaining balance and posture."
+                },
+                {
+                    "id": 8,
+                    "subject": "Biology",
+                    "type": "mcq",
+                    "text": "What is the main function of hemoglobin in red blood cells?",
+                    "options": ["Transporting oxygen", "Breaking down glucose", "Digesting lipids", "Fighting infections"],
+                    "correctAnswer": 0,
+                    "difficulty": "easy",
+                    "timeSuggested": 60,
+                    "tags": ["human physiology"],
+                    "explanation": "Hemoglobin binds to oxygen in the lungs and transports it to tissues throughout the body."
+                },
+                {
+                    "id": 9,
+                    "subject": "Biology",
+                    "type": "mcq",
+                    "text": "Which type of RNA carries amino acids to the ribosome during protein synthesis?",
+                    "options": ["mRNA", "tRNA", "rRNA", "snRNA"],
+                    "correctAnswer": 1,
+                    "difficulty": "medium",
+                    "timeSuggested": 60,
+                    "tags": ["genetics"],
+                    "explanation": "Transfer RNA (tRNA) carries specific amino acids to the ribosome, facilitating the process of translation in protein synthesis."
+                },
+                {
+                    "id": 10,
+                    "subject": "Biology",
+                    "type": "mcq",
+                    "text": "Which vitamin is essential for blood clotting?",
+                    "options": ["Vitamin A", "Vitamin C", "Vitamin K", "Vitamin D"],
+                    "correctAnswer": 2,
+                    "difficulty": "easy",
+                    "timeSuggested": 60,
+                    "tags": ["human physiology"],
+                    "explanation": "Vitamin K is essential for synthesizing clotting factors in the blood, helping to prevent excessive bleeding."
+                }
+            ]
+        },
+        "gate": {
+            "questions": [
+                {"id": 1, "subject": "Engineering Mathematics", "type": "mcq", "text": "What is the value of ∫(0 to π) sin(x) dx?", "options": ["0", "1", "2", "-1"], "correctAnswer": 2, "difficulty": "medium", "timeSuggested": 120, "tags": ["calculus"], "explanation": "The integral ∫(0 to π) sin(x) dx represents the area under the curve of sin(x) from 0 to π. The antiderivative of sin(x) is -cos(x). Evaluating at the limits: [-cos(π)] - [-cos(0)] = [-(-1)] - [-1] = 1 + 1 = 2."}
+            ]
+        },
+        "upsc": {
+            "questions": [
+                {"id": 1, "subject": "General Studies", "type": "mcq", "text": "Who was the first Prime Minister of India?", "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "Sardar Patel", "Indira Gandhi"], "correctAnswer": 1, "difficulty": "easy", "timeSuggested": 45, "tags": ["history"], "explanation": "Jawaharlal Nehru was the first Prime Minister of India, serving from 1947 until his death in 1964. Mahatma Gandhi was a freedom fighter but never held office, Sardar Patel was the first Deputy Prime Minister, and Indira Gandhi was a later Prime Minister."}
+            ]
+        }
+    }
+}
